@@ -1,0 +1,21 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.section-area {
+    display: flex;
+}
+
+.left-area {
+    width: 50%;
+}
+
+.right-area {
+    width: 50%;
+
+}
+
+.right-area img {
+    width: 80%;
+}
