@@ -64,6 +64,11 @@ section {
 }
 
 /* experiences-section style */
+.heading {
+    font-size: 40px;
+    font-weight: 500;
+}
+
 .experiences-section h4 {
     color: tomato;
 }
@@ -77,7 +82,7 @@ section {
 .experiences-section .half-item {
     box-shadow: 0px 1px 17px 10px #888888;
     width: 43%;
-    margin: 70px;
+    margin: 40px 70px;
     padding: 10px 20px;
 
 }
