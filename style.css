@@ -63,6 +63,37 @@ section {
     color: rgb(244, 83, 250);
 }
 
-.experiences-section h2 {
+/* experiences-section style */
+.experiences-section h4 {
     color: tomato;
+}
+
+.experiences-section {
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.experiences-section .half-item {
+    box-shadow: 0px 1px 17px 10px #888888;
+    width: 43%;
+    margin: 70px;
+    padding: 10px 20px;
+
+}
+
+.fast-area {
+    border-left: 5px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+
+.half-item.second-area {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
