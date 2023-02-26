@@ -1,21 +1,68 @@
+/* common style */
+
 body {
     font-family: 'Noto Sans', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+
 }
 
-.section-area {
+
+section {
+    margin-bottom: 100px;
+}
+
+.btn-link {
+    padding: 7px 20px;
+    background-image: linear-gradient(rgb(223, 34, 182), rgb(150, 5, 101));
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+.flexible-container {
     display: flex;
+    justify-content: center;
 }
 
-.left-area {
-    width: 50%;
+/* header style */
+.section-area {
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
 }
 
-.right-area {
-    width: 50%;
+
+.half-item {
+    width: 45%;
+}
+
+.half-item {
+    width: 45%;
 
 }
 
-.right-area img {
+.half-item img {
     width: 80%;
+}
+
+
+
+.half-item h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.bigdream-area {
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+.half-item h1 span {
+    color: rgb(244, 83, 250);
+}
+
+.experiences-section h2 {
+    color: tomato;
 }
